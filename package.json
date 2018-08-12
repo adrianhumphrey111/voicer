@@ -4,6 +4,7 @@
   "description": "voicer - voice recognition service for asterisk",
   "main": "index.js",
   "dependencies": {
+    "@google-cloud/speech": "^2.0.0",
     "ding-dong": "0.1.1",
     "file-exists": "^1.0.0",
     "google-speech": "0.0.2",
