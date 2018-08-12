@@ -38,7 +38,7 @@ HTTP_STATUS = {"OK": ResponseStatus(code=200, message="OK"),
                "INTERNAL_SERVER_ERROR": ResponseStatus(code=500, message="Internal server error")}
 
 # API Objects
-speech_client = speech.Client()
+speech_client = speech.SpeechClient()
 
 SAMPLE_WIDTH, SAMPLE_RATE = 2.0, 18000.0 # 16-bit, 48kHz PCM audio
 
