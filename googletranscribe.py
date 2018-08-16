@@ -35,9 +35,6 @@ time.sleep(10)
 agi.verbose("Waited ten seconds, now sending file.")
 try:
     with io.open(3, 'rb') as audio_file:
-        agi.verbose("Audio File encoding")
-        agi.verbose(audio_file.peek())
-        agi.verbose("What is going on")
         content = audio_file.read(102400)
         agi.verbose("The content has been written to")
 except Exception as e:
