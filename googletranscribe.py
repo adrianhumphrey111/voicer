@@ -56,7 +56,7 @@ streaming_config = types.StreamingRecognitionConfig(config=config)
 responses = speech_client.streaming_recognize(streaming_config, requests)
 # Detects speech in the audio file
 
-agi.verbose("Response : {}".format(responses))
+agi.verbose("Responses : {}".format(responses))
 
 for response in responses:
     agi.verbose("Response: {}".format(response))
